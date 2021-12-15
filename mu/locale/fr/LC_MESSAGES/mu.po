@@ -97,10 +97,15 @@ msgid ""
 "Each separate package name should be on a new line. Packages are "
 "installed from PyPI (see: https://pypi.org/)."
 msgstr ""
+"La librairie ci-dessous sera disponible dans le mode Python 3."
+"Une librairie supprimée de la liste devient inutilisable."
+"\n"
+"Chaque nom de librairie doit être sur une nouvelle ligne. Les librairies sont "
+"installées depuis PyPI (voir : https://pypi.org/)."
 
 #: mu/interface/dialogs.py:239
 msgid "Automatically detect"
-msgstr ""
+msgstr "Détecter automatiquement"
 
 #: mu/interface/dialogs.py:264
 msgid ""
@@ -108,10 +113,13 @@ msgid ""
 "listed below. <strong>Restart Mu for these changes to take "
 "effect.</strong>"
 msgstr ""
+"Choisissez une langue pour l'interface utilisateur depuis la liste des choix "
+"en dessous. <strong>Redémarrer Mu pour que ces modifications prennent "
+"effet.<\strong>"
 
 #: mu/interface/dialogs.py:295
 msgid "How to flash MicroPython to your device"
-msgstr ""
+msgstr "Comment flasher MicroPython sur votre appareil"
 
 #: mu/interface/dialogs.py:302
 msgid ""
@@ -121,14 +129,18 @@ msgid ""
 " Connect your device<br/>&nbsp;4. Load the .bin file below using the "
 "'Browse' button<br/>&nbsp;5. Press 'Erase & write firmware'"
 msgstr ""
+"&nbsp;1. Détermine le type d'appareil (ESP8266 ou ESP32)<br />&nbsp;2. "
+"Télechargez le firmware depuis le <a href=\"https://micropython.org/download\" "
+"style=\"color:#039be5;\">https://micropython.org/download</a><br/>&nbsp;3."
+"'Naviguer' button<br/>&nbsp;5. Appuyez 'Effacer & écrire le firmware'"
 
 #: mu/interface/dialogs.py:334 mu/modes/web.py:82
 msgid "Browse"
-msgstr ""
+msgstr "Naviguer"
 
 #: mu/interface/dialogs.py:335
 msgid "Erase && write firmware"
-msgstr ""
+msgstr "Effacer && écrire le firmware"
 
 #: mu/interface/dialogs.py:509 mu/interface/main.py:1381
 msgid "Mu Administration"
@@ -148,15 +160,15 @@ msgstr "Configuration BBC micro:bit"
 
 #: mu/interface/dialogs.py:538
 msgid "Third Party Packages"
-msgstr ""
+msgstr "Bibliothèque d'un parti tiers"
 
 #: mu/interface/dialogs.py:542
 msgid "ESP Firmware flasher"
-msgstr ""
+msgstr "Flasheur de firmware ESP"
 
 #: mu/interface/dialogs.py:547
 msgid "Select Language"
-msgstr ""
+msgstr "Choisissez la langue"
 
 #: mu/interface/dialogs.py:585
 msgid "Find / Replace"
@@ -164,11 +176,11 @@ msgstr "Rechercher / Remplacer"
 
 #: mu/interface/dialogs.py:589
 msgid "Find:"
-msgstr "Recherche:"
+msgstr "Recherche :"
 
 #: mu/interface/dialogs.py:596
 msgid "Replace (optional):"
-msgstr "Remplace (optionnel):"
+msgstr "Remplace (optionnel) :"
 
 #: mu/interface/dialogs.py:602
 msgid "Replace all?"
@@ -176,7 +188,7 @@ msgstr "Remplacer tout?"
 
 #: mu/interface/dialogs.py:651
 msgid "Third Party Package Status"
-msgstr ""
+msgstr "Statut de la bibliothèque d'un parti tiers"
 
 #: mu/interface/editor.py:319 mu/logic.py:1324
 msgid "untitled"
@@ -253,7 +265,7 @@ msgstr "Vendredi"
 
 #: mu/interface/main.py:155
 msgid "Tidy up the layout of your code."
-msgstr ""
+msgstr "Nettoyer la msie en forme de votre code."
 
 #: mu/interface/main.py:159
 msgid "Help"
@@ -273,7 +285,7 @@ msgstr "Quitte Mu."
 
 #: mu/interface/main.py:275
 msgid "Close file"
-msgstr ""
+msgstr "Fermer le fichier"
 
 #: mu/interface/main.py:316
 msgid "Mu {}"
@@ -281,7 +293,7 @@ msgstr "Mu {}"
 
 #: mu/interface/main.py:554
 msgid "Copy selected text to REPL"
-msgstr ""
+msgstr "Copier le texte sélectionné vers REPL"
 
 #: mu/interface/main.py:617
 #, fuzzy
@@ -393,7 +405,7 @@ msgstr "Ouvrir avec Mu"
 
 #: mu/interface/panes.py:626
 msgid "Write to main.py on device"
-msgstr ""
+msgstr "Ecrire vers main.py sur votre appareil"
 
 #: mu/interface/panes.py:629
 msgid "Open"
@@ -456,7 +468,7 @@ msgstr ""
 #: mu/interface/widgets.py:70 mu/interface/widgets.py:141
 #: mu/interface/widgets.py:154
 msgid "No device connected."
-msgstr ""
+msgstr "Aucun appareil connecté"
 
 #: mu/logic.py:90
 msgid "Hello, World!"
@@ -732,7 +744,7 @@ msgstr ""
 
 #: mu/logic.py:576
 msgid " compatible"
-msgstr ""
+msgstr " compatible"
 
 #: mu/logic.py:995
 msgid ""
@@ -743,6 +755,12 @@ msgid ""
 "If this file was saved in another application, re-save the file via the "
 "'Save as' option and set the encoding to {0}"
 msgstr ""
+"Le fichier contient des charactères que Mu pense être encodés comme {0} ou comme la "
+"manière par défaut de l'ordinateur {1}, mais ils sont encodés d'une manière différente."
+"\n"
+"\n"
+"Si ce fichier a été sauvegardé dans une autre application, sauvegardés le de nouveau par "
+"l'option 'Sauvegarder comme' et choissit l'encodage {0}"
 
 #: mu/logic.py:1023
 msgid "The file \"{}\" is already open."
@@ -824,7 +842,7 @@ msgstr "Fichier enregistré: {}"
 
 #: mu/logic.py:1260 mu/logic.py:1675
 msgid "You cannot use the filename \"{}\""
-msgstr ""
+msgstr "Vous ne pouvez pas utiliser \"{}\" comme nom de ficher"
 
 #: mu/logic.py:1263
 msgid ""
@@ -871,6 +889,8 @@ msgid ""
 "The micro:bit runtime you specified ('{}') does not exist. Please try "
 "again."
 msgstr ""
+"Le runtime  que vous avez spécifiée ('{}') n'existe pas. Essaiez de "
+"nouveau."
 
 #: mu/logic.py:1569
 msgid "Changed to {} mode."
@@ -942,21 +962,23 @@ msgstr ""
 
 #: mu/logic.py:1817
 msgid "Successfully cleaned the code. Use CTRL-Z to undo."
-msgstr ""
+msgstr "Le nettoyage du code a réussi. Utilisez CTRL-Z pour revenir en arrière."
 
 #: mu/logic.py:1823
 msgid "Your code contains problems."
-msgstr ""
+msgstr "Votre code contient des erreurs."
 
 #: mu/logic.py:1824
 msgid ""
 "These must be fixed before tidying will work. Please use the 'Check' "
 "button to highlight these problems."
 msgstr ""
+"Celles-ci doivent être fixés avant que le nettoyage puisse avoir lieu. Utilisez le bouton "
+"'Checker' pour surligner ces problèmes s'il vous plaît."
 
 #: mu/modes/base.py:115
 msgid "Cannot connect to device on port {}"
-msgstr ""
+msgstr "Impossible de connecter l'appareil sur le port {}"
 
 #: mu/modes/base.py:209
 msgid "# Write your code here :-)"
@@ -1040,7 +1062,7 @@ msgstr "Adafruit CircuitPython"
 
 #: mu/modes/circuitpython.py:39
 msgid "Write code for boards running CircuitPython."
-msgstr ""
+msgstr "Ecrivez le code pour les boards qui utilisent CircuitPython."
 
 #: mu/modes/circuitpython.py:142 mu/modes/pyboard.py:86
 msgid "Serial"
@@ -1062,19 +1084,22 @@ msgstr "Déssine graphique avec les données du REPL."
 
 #: mu/modes/circuitpython.py:189
 msgid "Permission error running mount command"
-msgstr ""
+msgstr "La commande de montage a rencontré une erreur de permission."
 
 #: mu/modes/circuitpython.py:190
 msgid ""
 "The mount command (\"{}\") returned an error: {}. Mu will continue as if "
 "a device isn't plugged in."
-msgstr ""
+msgstr "La commande de montage (\"{}\") a retourné une erreur : {}. Mu va continuer comme si "
+"aucun appareil été branché."
 
 #: mu/modes/circuitpython.py:208
 msgid ""
 "If your Circuit Python device is plugged in, you need to \"Share with "
 "Linux\" on the CIRCUITPY drive in the \"Files\" app then restart Mu."
 msgstr ""
+"Si votre appareil CircuitPython n'est pas branchée, vous devez \"Partager avec "
+"Linux\" sur le drive CIRCUITPY dans l'application \"Fichiers\" avant de redémarrer Mu."
 
 #: mu/modes/circuitpython.py:269
 #, fuzzy
@@ -1174,11 +1199,11 @@ msgstr "Erreur débogueur: {}"
 
 #: mu/modes/esp.py:35
 msgid "ESP MicroPython"
-msgstr ""
+msgstr "ESP MicroPython"
 
 #: mu/modes/esp.py:38
 msgid "Write MicroPython on ESP8266/ESP32 boards."
-msgstr ""
+msgstr "Ecrire MicroPython sur des boards ESP8266/ESP32."
 
 #: mu/modes/esp.py:71 mu/modes/python3.py:150 mu/modes/python3.py:199
 #: mu/modes/web.py:75 mu/modes/web.py:128
@@ -1187,7 +1212,7 @@ msgstr "Lancer"
 
 #: mu/modes/esp.py:72
 msgid "Run your code directly on the {board_name} via the REPL."
-msgstr ""
+msgstr "Excécutez votre code sur le {board_name} via le REPL."
 
 #: mu/modes/esp.py:81 mu/modes/microbit.py:145
 msgid "Files"
@@ -1239,7 +1264,7 @@ msgstr ""
 
 #: mu/modes/esp.py:180
 msgid "Cannot run anything without any active editor tabs."
-msgstr ""
+msgstr "Impossible d'excécuter quelque chose sans fenêtre d'éditeur ouverte."
 
 #: mu/modes/esp.py:181
 msgid ""
